@@ -4,7 +4,9 @@
   box-sizing: border-box;
   outline: 0;
 }
-
+body{
+  padding-top: 20px;
+}
 header {
   width: 100%;
 }
@@ -12,7 +14,7 @@ header {
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 i {
@@ -164,7 +166,8 @@ i {
   }
 }
 .about {
-  background-color: #06121e;
+  background-image: url("https://ma.senac.br/wp-content/uploads/2016/07/95126774657785e33d4790.jpg");
+  background-size: cover;
   overflow: hidden;
   color: #FFF;
 }
@@ -183,7 +186,11 @@ i {
 .about-content div {
   flex: 1;
 }
-
+.about-description{
+  background-color: #06121e9c;
+  padding: 15px;
+  border-radius: 10px;
+}
 .about-description h2 {
   font-size: 38px;
   margin-bottom: 24px;
@@ -191,6 +198,12 @@ i {
 .about-description p {
   margin-bottom: 14px;
   line-height: 150%;
+}
+.a-comprar{
+  color: white;
+}
+#imgg{
+  width: 80px;
 }
 
 @media screen and (max-width: 768px) {
